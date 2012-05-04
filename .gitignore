@@ -1,0 +1,8 @@
+django.log
+django.log.*
+*~
+*.db
+*.pyc
+*.swp
+.DS_Store
+
