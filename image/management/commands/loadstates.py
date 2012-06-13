@@ -1,7 +1,7 @@
 import os
 import csv
 import statestyle
-from shapes import us_states
+from image import us_states
 from image.models import State
 from django.conf import settings
 from django.core.management.base import BaseCommand, CommandError
