@@ -141,5 +141,4 @@ LOGGING = {
 }
 
 MAP_IMAGE_DIR = os.path.join(ROOT_PATH, 'map_images')
-DATA_URL = os.path.join(ROOT_PATH, 'data')
 BATIK_PATH = os.path.join(ROOT_PATH, "image", 'batik-1.7', 'batik-rasterizer.jar')
