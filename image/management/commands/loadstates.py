@@ -10,7 +10,7 @@ class Command(BaseCommand):
     help = "Loads some data"
     
     def handle(self, *args, **kwds):
-        csv_file = open('unemployment.csv', 'rU')
+        csv_file = open('image/unemployment.csv', 'rU')
         data = list(csv.reader(csv_file))
         csv_file.close()
         for i in data[1:]:
